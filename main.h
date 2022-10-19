@@ -13,7 +13,7 @@ struct func_types
 	int (*print_func)(va_list);
 };
 
-typdef struct func_types print_types;
+typedef struct func_types print_types;
 int _putchar(char c);
 int _printf(const char *format, ...);
 int (*get_print_type(char c))(va_list);
