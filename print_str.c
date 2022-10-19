@@ -25,9 +25,9 @@ int print_str(va_list in_args)
 	}
 	else
 	{
-		while (str[i] != '\0')
+		while (str[str_cnt] != '\0')
 		{
-			c = str[i];
+			c = str[str_cnt];
 			write(1, &c, 1);
 			str_cnt++;
 		}
