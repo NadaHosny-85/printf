@@ -10,7 +10,7 @@
 struct func_types
 {
 	char spec;
-	int (*print_func)(va_list)
+	int (*print_func)(va_list);
 };
 
 typdef struct func_types print_types;
